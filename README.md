@@ -15,3 +15,7 @@ Desenvolvimento de um página moderna e responsiva como intuito de aprendizagem 
 [iconfinder](https://www.iconfinder.com/)
 
 [optmizilla](https://imagecompressor.com/pt/)
+### Validação
+[W3C-Service](https://validator.w3.org/)
+[W3C-CSS](https://jigsaw.w3.org/css-validator/)
+
