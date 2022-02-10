@@ -156,6 +156,7 @@ main h2 {
     margin-bottom: 10px;
 }
 
+
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 576px){
     
@@ -265,7 +266,10 @@ main h2 {
         border-radius: 50%;
         margin-right: 50px;
     }
- }
+
+      
+    
+}
 
  
 
