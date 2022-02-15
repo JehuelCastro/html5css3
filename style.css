@@ -23,13 +23,13 @@ body{
 /* Layout */
 .Container {
     margin: 0 auto;
-    
+
 }
 
 .Flex {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .Flex2 {
@@ -125,6 +125,7 @@ main h1 {
 main h2 {
     font-size: 1em;
     margin: 20px 0px 50px 0px;
+
 }
 
 /* Sobre */
@@ -133,27 +134,33 @@ main h2 {
     background: url(img/background.png);
     background-size: cover;
     background-position: center;
+        
 }
 
 #destaqueSobre {
     display: none;
+
 }
 
 #textoSobre {
     color: #fff;
     padding: 0px 10px;
+    
 }
 
 .TopicosSobre {
     margin-top: 20px;
+
 }
 
 .TopicosSobre img {
     margin-right: 10px;
+    
 }
 
 #textoSobre h2 {
     margin-bottom: 10px;
+    
 }
 
 
@@ -163,10 +170,12 @@ main h2 {
         /* Layout */
         .Container {
             max-width: 540px;
+            
     }
     /* Destaque */
     main h1, main h2 {
         text-shadow: #000 0.5em 0.05em 0.05em;
+        
     }
  }
 
@@ -188,6 +197,7 @@ main h2 {
     }
     main h2 {
         font-size: 2em;
+        
     }
  }
 
@@ -198,11 +208,13 @@ main h2 {
       /* Layout */
       .Container {
         max-width: 960px;
+        
     }
 
     /* Destaque */
     main {
         height: 70vh;
+        
     }
  }
 
@@ -214,6 +226,7 @@ main h2 {
       /* Layout */
       .Container {
         max-width: 1140px;
+        
     }
 
     /* Cabeçalho */
@@ -231,6 +244,7 @@ main h2 {
 
     label {
         display: none;
+        
     }
 
     nav ul {
@@ -253,22 +267,24 @@ main h2 {
 
     nav ul li a:hover {
         color: #c00000;
+        
     }
 
     /* Sobre */
     #sobre {
         background-attachment: fixed;
+        
     }
     #destaqueSobre {
         display: inline;
+        
     }
     #destaqueSobre img {
         border-radius: 50%;
         margin-right: 50px;
+        
     }
 
-      
-    
 }
 
  

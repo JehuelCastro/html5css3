@@ -20,6 +20,7 @@ body{
     height: 100vh;
 }
 
+
 .container{
     position: relative;
     display: flex;
@@ -44,7 +45,7 @@ body{
 }
 
 .contact-box{
-    max-width: 850px;
+    max-width: 900px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
@@ -54,6 +55,33 @@ body{
     background-color: #fff;
     box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
     
+}
+
+.box{
+    
+    max-width: 850px;
+    display: center;
+    grid-template-columns: repeat(0, 1fr);
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    color: gray;
+}
+
+
+.inputBox{
+    position: relative;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
 }
 
 .left{
@@ -104,6 +132,16 @@ h2::after{
 .field:focus{
     background-color: #fff;
     border: 2px solid rgba(30, 85, 250, 0.47);
+}
+
+.fieldGenero{
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
 }
 
 .area{
